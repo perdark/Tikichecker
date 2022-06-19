@@ -4,22 +4,22 @@ abc ='ABCDEFGHIJKLMNOPQRSTUVWXYZ_1234567890'
 abc1 ='ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 import telebot
 from telebot import types
-bot_token ="5068991301:AAH1vv2Z7V0i5g2ADrZ_gJ2TOCSZ9aiyEHs"
+bot_token =""
 bot = telebot.TeleBot(bot_token)
-admin=[2029773594,1264770085,2053044330,1959561727,5072327667,2067768173,1972138234,1777649029,1824081699,1640747466,1597993450]
+admin=[2029773594,1264770085,2053044330,1959561727,5072327667,2067768173,1972138234,1777649029,1824081699,1640747466,5244755240]
 
 
 @bot.message_handler(commands=['start'])
 def start_message(message):
     first = message.from_user.first_name
-    url = 'https://t.me/P_0_0_0/19'
+    url = 'https://t.me/N1111V'
     bot.send_animation((message.chat.id), url, caption=f"""اهلا {first}
 
                 اهلا بك في بوت يوزرات تليجرام
 
                 اضغط   /HAMO   لتتأكد انك مشترك بالبوت
 
-                للاشتراك في المدفوع =>> @H_7AM0""", reply_to_message_id=(message.message_id))
+                للاشتراك في المدفوع =>> @E_4_1""", reply_to_message_id=(message.message_id))
 
 
 
@@ -59,13 +59,13 @@ def msg(message):
             pass
         else:
             mas = types.InlineKeyboardMarkup(row_width=1)
-            h7am0 = types.InlineKeyboardButton('مطور البوت', url='t.me/h_7am0')
+            h7am0 = types.InlineKeyboardButton('مطور البوت', url='t.me/E_4_1')
             mas.add(h7am0)
             bot.reply_to(message, '''لست مشترك في البوت
 للتفعيل اسبوع في البوت مقابل 2 ارقام تليجرام
 تريد تفعل اسبوعين 3 ارقم تليجرام
 تريد تفعل شهر 5 ارقام تليجرام
-اقبل مقابلات اخري فقط تواصل @XX36X''', reply_markup=mas)
+اقبل مقابلات اخري فقط تواصل @E_4_1''', reply_markup=mas)
 
 @bot.callback_query_handler(func=lambda call: True)
 def calling(call):
@@ -287,7 +287,7 @@ def calling(call):
                     B = types.InlineKeyboardButton(f"Done CHECK: {AL}", callback_data="*#")
                     e = types.InlineKeyboardButton(f"SUCCESS ✅: {GO}", callback_data="*#")
                     z = types.InlineKeyboardButton(f"WORNG❌ : {WR}", callback_data="*#")
-                    h7am0 = types.InlineKeyboardButton('مطور البوت', url='t.me/h_7am0')
+                    h7am0 = types.InlineKeyboardButton('مطور البوت', url='t.me/E_4_1')
                     ms.add(V, B, T, e, z, h7am0)
                     bot.edit_message_text(chat_id=call.message.chat.id, message_id=call.message.message_id,
                                           text="جاري الفحص ☠️ ", reply_markup=ms)
@@ -303,7 +303,7 @@ def calling(call):
                     B = types.InlineKeyboardButton(f"Done CHECK: {AL}", callback_data="Fsi1")
                     e = types.InlineKeyboardButton(f"SUCCESS ✅: {GO}", callback_data="Fsi1")
                     z = types.InlineKeyboardButton(f"WORNG❌ : {WR}", callback_data="Fakz1")
-                    h7am0 = types.InlineKeyboardButton('مطور البوت', url='t.me/h_7am0')
+                    h7am0 = types.InlineKeyboardButton('مطور البوت', url='t.me/E_4_1')
                     ms.add(V, B, T, e, z, h7am0)
                     bot.edit_message_text(chat_id=call.message.chat.id, message_id=call.message.message_id,
                                           text="جاري الفحص ☠️ ", reply_markup=ms)
@@ -338,7 +338,7 @@ def calling(call):
                     B = types.InlineKeyboardButton(f"Done CHECK: {AL}", callback_data="*#")
                     e = types.InlineKeyboardButton(f"SUCCESS ✅: {GO}", callback_data="*#")
                     z = types.InlineKeyboardButton(f"WORNG❌ : {WR}", callback_data="*#")
-                    h7am0 = types.InlineKeyboardButton('مطور البوت', url='t.me/h_7am0')
+                    h7am0 = types.InlineKeyboardButton('مطور البوت', url='t.me/E_4_1')
                     ms.add(V, B, T, e, z, h7am0)
                     bot.edit_message_text(chat_id=call.message.chat.id, message_id=call.message.message_id,
                                           text="جاري الفحص ☠️ ", reply_markup=ms)
@@ -354,7 +354,7 @@ def calling(call):
                     B = types.InlineKeyboardButton(f"Done CHECK: {AL}", callback_data="Fsi1")
                     e = types.InlineKeyboardButton(f"SUCCESS ✅: {GO}", callback_data="Fsi1")
                     z = types.InlineKeyboardButton(f"WORNG❌ : {WR}", callback_data="Fakz1")
-                    h7am0 = types.InlineKeyboardButton('مطور البوت', url='t.me/h_7am0')
+                    h7am0 = types.InlineKeyboardButton('مطور البوت', url='t.me/E_4_1')
                     ms.add(V, B, T, e, z, h7am0)
                     bot.edit_message_text(chat_id=call.message.chat.id, message_id=call.message.message_id,
                                           text="جاري الفحص ☠️ ", reply_markup=ms)
@@ -405,7 +405,7 @@ def calling(call):
                     B = types.InlineKeyboardButton(f"Done CHECK: {AL}", callback_data="Fsi1")
                     e = types.InlineKeyboardButton(f"SUCCESS ✅: {GO}", callback_data="Fsi1")
                     z = types.InlineKeyboardButton(f"WORNG❌ : {WR}", callback_data="Fakz1")
-                    h7am0 = types.InlineKeyboardButton('مطور البوت', url='t.me/h_7am0')
+                    h7am0 = types.InlineKeyboardButton('مطور البوت', url='t.me/E_4_1')
                     ms.add(V, B, T, e, z, h7am0)
                     bot.edit_message_text(chat_id=call.message.chat.id, message_id=call.message.message_id,
                                           text="جاري الفحص ☠️ ", reply_markup=ms)
@@ -444,7 +444,7 @@ def calling(call):
                     B = types.InlineKeyboardButton(f"Done CHECK: {AL}", callback_data="*#")
                     e = types.InlineKeyboardButton(f"SUCCESS ✅: {GO}", callback_data="*#")
                     z = types.InlineKeyboardButton(f"WORNG❌ : {WR}", callback_data="*#")
-                    h7am0 = types.InlineKeyboardButton('مطور البوت', url='t.me/h_7am0')
+                    h7am0 = types.InlineKeyboardButton('مطور البوت', url='t.me/E_4_1')
                     ms.add(V, B, T, e, z, h7am0)
                     bot.edit_message_text(chat_id=call.message.chat.id, message_id=call.message.message_id,
                                           text="جاري الفحص ☠️ ", reply_markup=ms)
@@ -460,7 +460,7 @@ def calling(call):
                     B = types.InlineKeyboardButton(f"Done CHECK: {AL}", callback_data="Fsi1")
                     e = types.InlineKeyboardButton(f"SUCCESS ✅: {GO}", callback_data="Fsi1")
                     z = types.InlineKeyboardButton(f"WORNG❌ : {WR}", callback_data="Fakz1")
-                    h7am0 = types.InlineKeyboardButton('مطور البوت', url='t.me/h_7am0')
+                    h7am0 = types.InlineKeyboardButton('مطور البوت', url='t.me/E_4_1')
                     ms.add(V, B, T, e, z, h7am0)
                     bot.edit_message_text(chat_id=call.message.chat.id, message_id=call.message.message_id,
                                           text="جاري الفحص ☠️ ", reply_markup=ms)
@@ -498,7 +498,7 @@ def calling(call):
                     B = types.InlineKeyboardButton(f"Done CHECK: {AL}", callback_data="*#")
                     e = types.InlineKeyboardButton(f"SUCCESS ✅: {GO}", callback_data="*#")
                     z = types.InlineKeyboardButton(f"WORNG❌ : {WR}", callback_data="*#")
-                    h7am0 = types.InlineKeyboardButton('مطور البوت', url='t.me/h_7am0')
+                    h7am0 = types.InlineKeyboardButton('مطور البوت', url='t.me/E_4_1')
                     ms.add(V, B, T, e, z, h7am0)
                     bot.edit_message_text(chat_id=call.message.chat.id, message_id=call.message.message_id,
                                           text="جاري الفحص ☠️ ", reply_markup=ms)
@@ -514,7 +514,7 @@ def calling(call):
                     B = types.InlineKeyboardButton(f"Done CHECK: {AL}", callback_data="Fsi1")
                     e = types.InlineKeyboardButton(f"SUCCESS ✅: {GO}", callback_data="Fsi1")
                     z = types.InlineKeyboardButton(f"WORNG❌ : {WR}", callback_data="Fakz1")
-                    h7am0 = types.InlineKeyboardButton('مطور البوت', url='t.me/h_7am0')
+                    h7am0 = types.InlineKeyboardButton('مطور البوت', url='t.me/E_4_1')
                     ms.add(V, B, T, e, z, h7am0)
                     bot.edit_message_text(chat_id=call.message.chat.id, message_id=call.message.message_id,
                                           text="جاري الفحص ☠️ ", reply_markup=ms)
