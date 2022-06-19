@@ -13,13 +13,9 @@ admin=[2029773594,1264770085,2053044330,1959561727,5244755240,2067768173,1972138
 def start_message(message):
     first = message.from_user.first_name
     url = 'https://t.me/N1111V/3'
-    bot.send_animation((message.chat.id), url, caption=f"""اهلا {first}
-
-                اهلا بك في بوت يوزرات تليجرام
-
-                اضغط   /TXN   لتتأكد انك مشترك بالبوت
-
-                للاشتراك في المدفوع =>> @E_4_1""", reply_to_message_id=(message.message_id))
+    bot.send_animation((message.chat.id), url, caption=f"""اهلا {firs}آهہلآ بگ في بوت يوزرآت تليجيرام 
+آضـغطـ /TXN لنتأگد آنك مـشـترك في آلبوت 
+للشـترآك في آلمـدفوع @E_4_1""", reply_to_message_id=(message.message_id))
 
 
 
