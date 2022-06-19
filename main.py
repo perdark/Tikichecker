@@ -14,10 +14,11 @@ def start_message(message):
     first = message.from_user.first_name
     url = 'https://t.me/N1111V/3'
     bot.send_animation((message.chat.id), url, caption=f"""اهلا {first}
-     بگ في بوت يوزرآت تليجيرام
-آضـغطـ /TXN لنتأگد آنك مـشـترك في آلبوت 
-للشـترآك في آلمـدفوع @E_4_1""", reply_to_message_id=(message.message_id))
+    في بوت يوزرات تلجرام 🚹
 
+اضغط /TXN لنتائكد انك مشترك في البوت 👁️
+
+للشتراك في البوت اذا كنت غير مشترك @E_4_1 ⚠️ 
 @bot.message_handler(commands=['TXN','txn','Txn'])
 def hamo(message):
     if message.from_user.id in admin:
