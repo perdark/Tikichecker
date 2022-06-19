@@ -11,7 +11,7 @@ admin=[2029773594,5487311341,2053044330,1959561727,5244755240,2067768173,1972138
 @bot.message_handler(commands=['start'])
 def start_message(message):
     first = message.from_user.first_name
-    url = 'https://t.me/https://t.me/N1111V/3'
+    url = 'https://t.me/N1111V/3'
     bot.send_animation((message.chat.id), url, caption=f"""اهلا {first}
 
     في بوت يوزرات تلجرام 🚹
