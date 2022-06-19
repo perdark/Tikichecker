@@ -9,18 +9,16 @@ bot = telebot.TeleBot(bot_token)
 admin=[2029773594,5487311341,2053044330,1959561727,5244755240,2067768173,1972138234,1777649029,1824081699,1640747466,5244755240]
 
 
-@bot.message_handler(commands=['start'])
-def start_message(message):
-    first = message.from_user.first_name
-    url = 'https://t.me/N1111V/3'
-    bot.send_animation((message.chat.id), url, caption=f"""اهلا {first}
+@bot.message_handler(commands=["start"])
+def ss(message):
+    fs = message.from_user.first_name
+    bot.send_message(message.chat.id,f"""
+اهلا {fs}
+في بوت يوزرات تليجرام 
 
-في يوزرات تلجرام 🚹
+للتأكد من الاشتراك بالبوت ارسل /TXN
 
-اضغط /TXN لنتأكد انك مشترك فيه  👁️
-
-للشتراك في البوت اذا كنت غير مشترك @E_4_1 ⚠️""", reply_to_message_id=(message.message_id))
-
+للاشتراك بالبوت راسل @E_4_1""")
 @bot.message_handler(commands=['TXN','txn','Txn'])
 def hamo(message):
     if message.from_user.id in admin:
