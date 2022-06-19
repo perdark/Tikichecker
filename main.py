@@ -15,13 +15,11 @@ def start_message(message):
     url = 'https://t.me/N1111V/3'
     bot.send_animation((message.chat.id), url, caption=f"""اهلا {first}
 
-                اهلا بك في بوت يوزرات تليجرام
+    في بوت يوزرات تلجرام 🚹
 
-                اضغط   /TXN   لتتأكد انك مشترك بالبوت
+اضغط /TXN لنتائكد انك مشترك في البوت 👁️
 
-                للاشتراك في المدفوع =>> @E_4_1""", reply_to_message_id=(message.message_id))
-
-
+للشتراك في البوت اذا كنت غير مشترك @E_4_1 ⚠️""", reply_to_message_id=(message.message_id))
 
 @bot.message_handler(commands=['TXN','txn','Txn'])
 def hamo(message):
