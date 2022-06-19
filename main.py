@@ -23,7 +23,6 @@ def start_message(message):
 @bot.message_handler(commands=['TXN','txn','Txn'])
 def hamo(message):
     if message.from_user.id in admin:
-        me = types.InlineKeyboardButton(text="المطور",url="https://t.me/E_4_1")
         mas = types.InlineKeyboardMarkup(row_width=3)
         us0 = types.InlineKeyboardButton(text='يوزر شبه ثلاثي', callback_data='us0')
         us1 = types.InlineKeyboardButton(text='يوزر بوت رباعي مميز', callback_data='us1')
