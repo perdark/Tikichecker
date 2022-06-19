@@ -17,7 +17,7 @@ def start_message(message):
 
     في بوت يوزرات تلجرام 🚹
 
-us0 = types.InlineKeyboardButton(text='يوزر شبه ثلاثي'),
+me = types.InlineKeyboardButton(text="المطور",url="https://t.me/E_4_1")
 
 اضغط /TXN لنتأكد انك مشترك في البوت 👁️
 
