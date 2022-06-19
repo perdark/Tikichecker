@@ -13,17 +13,17 @@ admin=[2029773594,1264770085,2053044330,1959561727,5244755240,2067768173,1972138
 def start_message(message):
     first = message.from_user.first_name
     url = 'https://t.me/N1111V/3'
-    @bot.message_handler(commands=['start'])
-def start_message(message):
-    first = message.from_user.first_name
-    url = 'https://t.me/P_0_0_0/19'
     bot.send_animation((message.chat.id), url, caption=f"""اهلا {first}
 
                 اهلا بك في بوت يوزرات تليجرام
-                اضغط   /HAMO   لتتأكد انك مشترك بالبوت
-                للاشتراك في المدفوع =>> @H_7AM0""", reply_to_message_id=(message.message_id))
 
-@bot.message_handler(commands=['HAMO','hamo','Hamo'])
+                اضغط   /TXN   لتتأكد انك مشترك بالبوت
+
+                للاشتراك في المدفوع =>> @E_4_1""", reply_to_message_id=(message.message_id))
+
+
+
+@bot.message_handler(commands=['TXN','txn','Txn'])
 def hamo(message):
     if message.from_user.id in admin:
         mas = types.InlineKeyboardMarkup(row_width=3)
