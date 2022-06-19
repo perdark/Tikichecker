@@ -14,40 +14,41 @@ def start_message(message):
     url = 'https://t.me/N1111V/3'
     bot.send_animation((message.chat.id), url, caption=f"""اهلا {first}
 
-    في بوت يوزرات تلجرام 🚹
+    بُكَ فِيُ بُۅتِ صِيُډ يُۅࢪِ࣪ࢪاެتِ تِيُݪيُجَࢪاެمِ
+اެݪبُۅتِ مِډفِۅعٰ ۅݪيُسُ مِجَاެنِيُ اެضِغِطَ /TXN
+ݪكَيُ اެتِحِقِقِ هَݪ اެنِتِ مِشِتِࢪكَ فِيُ اެݪبُۅتِ ❤️‍🔥
+_
 
-اضغط /TXN لنتأكد انك مشترك في البوت 👁️
-
-للشتراك في البوت اذا كنت غير مشترك @E_4_1 ⚠️""", reply_to_message_id=(message.message_id))
+اެنِتِ كَنِتِ ݪسُتِ مِشِتِࢪكَ ࢪاެسُݪ اެݪمِطَۅࢪ @E_4_1 ݪكَيُ يُفِعٰݪ ݪكَ اެݪاެشِتِࢪاެكَ بُمِقِاެبُݪ بُسُيُطَ جَډاެ ❤️‍🔥""", reply_to_message_id=(message.message_id))
 
 @bot.message_handler(commands=['TXN','txn','Txn'])
 def hamo(message):
     if message.from_user.id in admin:
         mas = types.InlineKeyboardMarkup(row_width=3)
-        us0 = types.InlineKeyboardButton(text='يوزر شبه ثلاثي', callback_data='us0')
-        us1 = types.InlineKeyboardButton(text='يوزر بوت رباعي مميز', callback_data='us1')
-        us2 = types.InlineKeyboardButton(text='يوزر بوت ثلاثي', callback_data='us2')
-        us3 = types.InlineKeyboardButton(text='يوزر شبه رباعي مميز', callback_data='us3')
-        us4 = types.InlineKeyboardButton(text='يوزر خماسي مميز', callback_data='us4')
-        us5 = types.InlineKeyboardButton(text='يوزر سداسي مميز', callback_data='us5')
-        us6 = types.InlineKeyboardButton(text='يوزر بوت شبه ثلاثي', callback_data='us6')
-        us7 = types.InlineKeyboardButton(text='يوزر تساعي مميز', callback_data='us7')
-        us8 = types.InlineKeyboardButton(text='يوزر ثماني مميز', callback_data='us8')
-        h7am0 = types.InlineKeyboardButton('مطور البوت', url='t.me/E_4_1')
+        us0 = types.InlineKeyboardButton(text='شِبُهَ ثِݪاެثِيُ', callback_data='us0')
+        us1 = types.InlineKeyboardButton(text='ࢪبُاެعٰيُ ݪݪبُۅتِ', callback_data='us1')
+        us2 = types.InlineKeyboardButton(text='ثِݪاެثِيُ ݪݪبُۅتِ', callback_data='us2')
+        us3 = types.InlineKeyboardButton(text='شِبُهَ ࢪبُاެعٰيُ ', callback_data='us3')
+        us4 = types.InlineKeyboardButton(text='خِمِاެسُيُ مِمِيُࢪِ࣪', callback_data='us4')
+        us5 = types.InlineKeyboardButton(text='سُډاެسُيُ مِمِيُࢪِ࣪', callback_data='us5')
+        us6 = types.InlineKeyboardButton(text='شِبُهَ ثِݪاެثِيُ بُۅتِ', callback_data='us6')
+        us7 = types.InlineKeyboardButton(text='تِسُاެعٰيُ مِمِيُࢪِ࣪', callback_data='us7')
+        us8 = types.InlineKeyboardButton(text='ثِمِاެنِيُ مِمِيُࢪِ࣪', callback_data='us8')
+        h7am0 = types.InlineKeyboardButton('مِطَۅࢪيُ', url='t.me/E_4_1')
         mas.add(us0,us3,us4)
         mas.add(us2,us1,us6)
         mas.add(us5,us8,us7)
         mas.add(h7am0)
-        bot.reply_to(message, text='اختر من القائمه بالأسفل', reply_markup=mas)
+        bot.reply_to(message, text='اެخِتِاެࢪ شِنِۅ تِࢪيُډ حِبُ', reply_markup=mas)
     else:
         mas = types.InlineKeyboardMarkup(row_width=1)
-        h7am0 = types.InlineKeyboardButton('مطور البوت', url='t.me/E_4_1')
+        h7am0 = types.InlineKeyboardButton('مِطَۅࢪيُ', url='t.me/E_4_1')
         mas.add(h7am0)
-        bot.reply_to(message, '''لست مشترك في البوت
-للتفعيل اسبوع في البوت مقابل 2 ارقام تليجرام
-تريد تفعل اسبوعين 3 ارقم تليجرام
-تريد تفعل شهر 5 ارقام تليجرام
-اقبل مقابلات اخرى فقط تواصل @E_4_1''', reply_markup=mas)
+        bot.reply_to(message, '''يُࢪۅحِيُ اެسُفِ اެنِتِ مِاެ مِشِتِࢪكَ بُݪبُۅتِ
+ݪتِفِعٰيُݪ اެسُبُۅعٰيُ مِقِاެبُݪ 2 اެࢪقِاެمِ تِݪكَࢪاެمِ
+ݪتِفِعٰيُݪ اެسُبُۅعٰيُنِ مِقِاެبُݪ 4 اެࢪقِاެمِ تِݪكَࢪاެمِ
+ݪتِفِعٰيُݪ شِهَࢪ 5 اެࢪقِاެمِ تِݪكَࢪاެمِ
+اެقِبُݪ اެيُ شِيُ فِقِطَ تِۅاެصِݪ @E_4_1''', reply_markup=mas)
 
 @bot.message_handler(func=lambda message:True)
 def msg(message):
@@ -58,11 +59,11 @@ def msg(message):
             mas = types.InlineKeyboardMarkup(row_width=1)
             h7am0 = types.InlineKeyboardButton('مطور البوت', url='t.me/E_4_1')
             mas.add(h7am0)
-            bot.reply_to(message, '''لست مشترك في البوت
-للتفعيل اسبوع في البوت مقابل 2 ارقام تليجرام
-تريد تفعل اسبوعين 3 ارقم تليجرام
-تريد تفعل شهر 5 ارقام تليجرام
-اقبل مقابلات اخرى فقط تواصل @E_4_1''', reply_markup=mas)
+bot.reply_to(message, '''يُࢪۅحِيُ اެسُفِ اެنِتِ مِاެ مِشِتِࢪكَ بُݪبُۅتِ
+ݪتِفِعٰيُݪ اެسُبُۅعٰيُ مِقِاެبُݪ 2 اެࢪقِاެمِ تِݪكَࢪاެمِ
+ݪتِفِعٰيُݪ اެسُبُۅعٰيُنِ مِقِاެبُݪ 4 اެࢪقِاެمِ تِݪكَࢪاެمِ
+ݪتِفِعٰيُݪ شِهَࢪ 5 اެࢪقِاެمِ تِݪكَࢪاެمِ
+اެقِبُݪ اެيُ شِيُ فِقِطَ تِۅاެصِݪ @E_4_1''', reply_markup=mas)
 
 @bot.callback_query_handler(func=lambda call: True)
 def calling(call):
@@ -88,10 +89,10 @@ def calling(call):
                     B = types.InlineKeyboardButton(f"Done CHECK: {AL}", callback_data="*#")
                     e = types.InlineKeyboardButton(f"SUCCESS ✅: {GO}", callback_data="*#")
                     z = types.InlineKeyboardButton(f"WORNG❌ : {WR}", callback_data="*#")
-                    h7am0 = types.InlineKeyboardButton('مطور البوت', url='t.me/E_4_1')
+                    h7am0 = types.InlineKeyboardButton('مِطَۅࢪيُ', url='t.me/E_4_1')
                     ms.add(V, B, T, e, z, h7am0)
                     bot.edit_message_text(chat_id=call.message.chat.id, message_id=call.message.message_id,text="جاري الفحص ☠️ ", reply_markup=ms)
-                    bot.reply_to(call.message, f'''متاح او مبند
+                    bot.reply_to(call.message, f''' هَاެكَ حِبُ صِډتِݪكَ يُۅࢪِ࣪ࢪ اެنِتِبُهَ مِتِاެحِ اެۅ مِبُنِډ ݪاެ تِعٰصِبُ عٰݪيُاެ اެحِبُكَ
 @{user}''')
                 else:
                     WR += 1
@@ -103,12 +104,12 @@ def calling(call):
                     B = types.InlineKeyboardButton(f"Done CHECK: {AL}", callback_data="Fsi1")
                     e = types.InlineKeyboardButton(f"SUCCESS ✅: {GO}", callback_data="Fsi1")
                     z = types.InlineKeyboardButton(f"WORNG❌ : {WR}", callback_data="Fakz1")
-                    h7am0 = types.InlineKeyboardButton('مطور البوت', url='t.me/E_4_1')
+                    h7am0 = types.InlineKeyboardButton('مِطَۅࢪيُ', url='t.me/E_4_1')
                     ms.add(V, B, T, e, z, h7am0)
                     bot.edit_message_text(chat_id=call.message.chat.id, message_id=call.message.message_id,text="جاري الفحص ☠️ ", reply_markup=ms)
-            bot.reply_to(call.message, 'تم فحص 500 يوزر اضغط /TXN للصيد مره اخري')
+            bot.reply_to(call.message, 'تِمِ فِحِصِ 500 يُۅࢪِ࣪ࢪ/TXN ݪݪݪصِيُډ مِࢪهَ ثِاެنِيُهَ اެضِغِطَ')
         except:
-            bot.reply_to(call.message,'حدث خطأ اضغط /TXN وصيد مره اخري')
+            bot.reply_to(call.message,'صِاެࢪ خِطَاެ حِبُ/TXN صِيُډ مِࢪهَ ثِاެنِيُهَ اެضِغِطَ')
     if call.data == 'us1':
         GO = 0
         WR = 0
@@ -136,11 +137,11 @@ def calling(call):
                     B = types.InlineKeyboardButton(f"Done CHECK: {AL}", callback_data="*#")
                     e = types.InlineKeyboardButton(f"SUCCESS ✅: {GO}", callback_data="*#")
                     z = types.InlineKeyboardButton(f"WORNG❌ : {WR}", callback_data="*#")
-                    h7am0 = types.InlineKeyboardButton('مطور البوت', url='t.me/E_4_1')
+                    h7am0 = types.InlineKeyboardButton('مِطَۅࢪيُ', url='t.me/E_4_1')
                     ms.add(V, B, T, e, z, h7am0)
                     bot.edit_message_text(chat_id=call.message.chat.id, message_id=call.message.message_id,
-                                          text="جاري الفحص ☠️ ", reply_markup=ms)
-                    bot.reply_to(call.message, f'''متاح او مبند
+                                          text="جَاެيُ اެفِحِصِ... ☠️ ", reply_markup=ms)
+                    bot.reply_to(call.message, f'''هَاެكَ حِبُ صِډتِݪكَ يُۅࢪِ࣪ࢪ اެنِتِبُهَ مِتِاެحِ اެۅ مِبُنِډ ݪاެ تِعٰصِبُ عٰݪيُاެ اެحِبُكَ
             @{user}''')
                 else:
                     WR += 1
@@ -152,7 +153,7 @@ def calling(call):
                     B = types.InlineKeyboardButton(f"Done CHECK: {AL}", callback_data="Fsi1")
                     e = types.InlineKeyboardButton(f"SUCCESS ✅: {GO}", callback_data="Fsi1")
                     z = types.InlineKeyboardButton(f"WORNG❌ : {WR}", callback_data="Fakz1")
-                    h7am0 = types.InlineKeyboardButton('مطور البوت', url='t.me/E_4_1')
+                    h7am0 = types.InlineKeyboardButton('مِطَۅࢪيُ', url='t.me/E_4_1')
                     ms.add(V, B, T, e, z, h7am0)
                     bot.edit_message_text(chat_id=call.message.chat.id, message_id=call.message.message_id,
                                           text="جاري الفحص ☠️ ", reply_markup=ms)
@@ -441,11 +442,11 @@ def calling(call):
                     B = types.InlineKeyboardButton(f"Done CHECK: {AL}", callback_data="*#")
                     e = types.InlineKeyboardButton(f"SUCCESS ✅: {GO}", callback_data="*#")
                     z = types.InlineKeyboardButton(f"WORNG❌ : {WR}", callback_data="*#")
-                    h7am0 = types.InlineKeyboardButton('مطور البوت', url='t.me/E_4_1')
+                    h7am0 = types.InlineKeyboardButton('مِطَۅࢪيُ', url='t.me/E_4_1')
                     ms.add(V, B, T, e, z, h7am0)
                     bot.edit_message_text(chat_id=call.message.chat.id, message_id=call.message.message_id,
-                                          text="جاري الفحص ☠️ ", reply_markup=ms)
-                    bot.reply_to(call.message, f'''متاح او مبند
+                                          text="جَاެيُ اެفِحِصِ☠️ ", reply_markup=ms)
+                    bot.reply_to(call.message, f'''
             @{user}''')
                 else:
                     WR += 1
@@ -457,13 +458,13 @@ def calling(call):
                     B = types.InlineKeyboardButton(f"Done CHECK: {AL}", callback_data="Fsi1")
                     e = types.InlineKeyboardButton(f"SUCCESS ✅: {GO}", callback_data="Fsi1")
                     z = types.InlineKeyboardButton(f"WORNG❌ : {WR}", callback_data="Fakz1")
-                    h7am0 = types.InlineKeyboardButton('مطور البوت', url='t.me/E_4_1')
+                    h7am0 = types.InlineKeyboardButton('مِطَۅࢪيُ', url='t.me/E_4_1')
                     ms.add(V, B, T, e, z, h7am0)
                     bot.edit_message_text(chat_id=call.message.chat.id, message_id=call.message.message_id,
-                                          text="جاري الفحص ☠️ ", reply_markup=ms)
-            bot.reply_to(call.message, 'تم فحص 500 يوزر اضغط /TXN للصيد مره اخري')
+                                          text="جَاެيُ اެفِحِصِ...☠️ ", reply_markup=ms)
+            bot.reply_to(call.message, 'تِمِ فِحِصِ 500 يُۅࢪِ࣪ࢪ /TXN ݪݪصِيُډ مِࢪاެ ثِاެنِيُهَ اެضِغِطَ')
         except:
-            bot.reply_to(call.message,'حدث خطأ اضغط /TXN وصيد مره اخري')
+            bot.reply_to(call.message,'تِمِ فِحِصِ 500 يُۅࢪ࣪ࢪ /TXN ݪݪصِيُډ مِࢪاެ ثِاެنِيُهَ اެضِغِطَ')
     if call.data == 'us8':
         GO = 0
         WR = 0
@@ -495,11 +496,11 @@ def calling(call):
                     B = types.InlineKeyboardButton(f"Done CHECK: {AL}", callback_data="*#")
                     e = types.InlineKeyboardButton(f"SUCCESS ✅: {GO}", callback_data="*#")
                     z = types.InlineKeyboardButton(f"WORNG❌ : {WR}", callback_data="*#")
-                    h7am0 = types.InlineKeyboardButton('مطور البوت', url='t.me/E_4_1')
+                    h7am0 = types.InlineKeyboardButton('مِطَۅࢪيُ', url='t.me/E_4_1')
                     ms.add(V, B, T, e, z, h7am0)
                     bot.edit_message_text(chat_id=call.message.chat.id, message_id=call.message.message_id,
-                                          text="جاري الفحص ☠️ ", reply_markup=ms)
-                    bot.reply_to(call.message, f'''متاح او مبند
+                                          text="جَاެيُ اެفِحِصِ... ☠️ ", reply_markup=ms)
+                    bot.reply_to(call.message, f'''
             @{user}''')
                 else:
                     WR += 1
@@ -511,12 +512,12 @@ def calling(call):
                     B = types.InlineKeyboardButton(f"Done CHECK: {AL}", callback_data="Fsi1")
                     e = types.InlineKeyboardButton(f"SUCCESS ✅: {GO}", callback_data="Fsi1")
                     z = types.InlineKeyboardButton(f"WORNG❌ : {WR}", callback_data="Fakz1")
-                    h7am0 = types.InlineKeyboardButton('مطور البوت', url='t.me/E_4_1')
+                    h7am0 = types.InlineKeyboardButton('مِطَۅࢪيُ', url='t.me/E_4_1')
                     ms.add(V, B, T, e, z, h7am0)
                     bot.edit_message_text(chat_id=call.message.chat.id, message_id=call.message.message_id,
                                           text="جاري الفحص ☠️ ", reply_markup=ms)
-            bot.reply_to(call.message, 'تم فحص 500 يوزر اضغط /TXN للصيد مره اخري')
+            bot.reply_to(call.message, 'تِمِ فِحِصِ 500 يُۅࢪِ࣪ࢪ/TXN ݪݪصِيُډ مِࢪاެ ثِاެنِيُهَ اެضِغِطَ')
         except:
-            bot.reply_to(call.message,'حدث خطأ اضغط /TXN وصيد مره اخري')
+            bot.reply_to(call.message,'صِاެࢪ خِكَاެ حِبُ /TXN صِيُډ مِࢪهَ ثِاެنِيُهَ')
 print('bot run - HAMO \n'*5)
 bot.polling(True)
