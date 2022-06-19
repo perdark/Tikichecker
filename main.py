@@ -15,11 +15,9 @@ def start_message(message):
     url = 'https://t.me/N1111V/3'
     bot.send_animation((message.chat.id), url, caption=f"""اهلا {first}
 
-    في بوت يوزرات تلجرام 🚹
+في يوزرات تلجرام 🚹
 
-me = types.InlineKeyboardButton(text="المطور",url="https://t.me/E_4_1")
-
-اضغط /TXN لنتأكد انك مشترك في البوت 👁️
+اضغط /TXN لنتأكد انك مشترك فيه  👁️
 
 للشتراك في البوت اذا كنت غير مشترك @E_4_1 ⚠️""", reply_to_message_id=(message.message_id))
 
