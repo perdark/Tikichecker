@@ -39,8 +39,6 @@ def hamo(message):
         mas.add(us2,us1,us6)
         mas.add(us5,us8,us7)
         mas.add(h7am0)
-        bot.reply_to(message, text='اެخِتِاެࢪ شِنِۅ تِࢪيُډ حِبُ', reply_markup=mas)
-    else:
         bot.reply_to(message, text='اختر من القائمه بالأسفل', reply_markup=mas)
     else:
         mas = types.InlineKeyboardMarkup(row_width=1)
