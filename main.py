@@ -45,10 +45,7 @@ def hamo(message):
         h7am0 = types.InlineKeyboardButton('مِطَۅࢪيُ', url='t.me/E_4_1')
         mas.add(h7am0)
         bot.reply_to(message, '''يُࢪۅحِيُ اެسُفِ اެنِتِ مِاެ مِشِتِࢪكَ بُݪبُۅتِ
-ݪتِفِعٰيُݪ اެسُبُۅعٰيُ مِقِاެبُݪ 2 اެࢪقِاެمِ تِݪكَࢪاެمِ
-ݪتِفِعٰيُݪ اެسُبُۅعٰيُنِ مِقِاެبُݪ 4 اެࢪقِاެمِ تِݪكَࢪاެمِ
-ݪتِفِعٰيُݪ شِهَࢪ 5 اެࢪقِاެمِ تِݪكَࢪاެمِ
-اެقِبُݪ اެيُ شِيُ فِقِطَ تِۅاެصِݪ @E_4_1''', reply_markup=mas)
+يُ فِقِطَ تِۅاެصِݪ @E_4_1''', reply_markup=mas)
 
 @bot.message_handler(func=lambda message:True)
 def msg(message):
@@ -60,10 +57,7 @@ def msg(message):
             h7am0 = types.InlineKeyboardButton('مطور البوت', url='t.me/E_4_1')
             mas.add(h7am0)
 bot.reply_to(message, '''يُࢪۅحِيُ اެسُفِ اެنِتِ مِاެ مِشِتِࢪكَ بُݪبُۅتِ
-ݪتِفِعٰيُݪ اެسُبُۅعٰيُ مِقِاެبُݪ 2 اެࢪقِاެمِ تِݪكَࢪاެمِ
-ݪتِفِعٰيُݪ اެسُبُۅعٰيُنِ مِقِاެبُݪ 4 اެࢪقِاެمِ تِݪكَࢪاެمِ
-ݪتِفِعٰيُݪ شِهَࢪ 5 اެࢪقِاެمِ تِݪكَࢪاެمِ
-اެقِبُݪ اެيُ شِيُ فِقِطَ تِۅاެصِݪ @E_4_1''', reply_markup=mas)
+ݪتِفِعٰيُݪ اެسُبُۅعٰيُ مِقِاެبُݪ 2 اެࢪقِاެمِ تِݪكَࢪاެمِتِۅاެصِݪ @E_4_1''', reply_markup=mas)
 
 @bot.callback_query_handler(func=lambda call: True)
 def calling(call):
