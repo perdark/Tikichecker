@@ -6,12 +6,12 @@ import telebot
 from telebot import types
 bot_token ="5446689009:AAHhc54DpkslzukSj4kGQkaMvV70NEDbXFc"
 bot = telebot.TeleBot(bot_token)
-admin=[2029773594,5487311341,2053044330,1959561727,5244755240,2067768173,1854384004,1777649029,1403347605,1640747466,5244755240]
+admin=[5244755240]
 
 @bot.message_handler(commands=['start'])
 def start_message(message):
     first = message.from_user.first_name
-    url = 'https://t.me/P_0_0_0/19'
+    url = 'https://t.me/N1111V/3'
     bot.send_animation((message.chat.id), url, caption=f"""اهلا {first}
 
     بُكَ فِيُ بُۅتِ صِيُډ يُۅࢪِ࣪ࢪاެتِ تِيُݪيُجَࢪاެمِ
