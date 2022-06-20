@@ -41,14 +41,16 @@ def hamo(message):
         mas.add(h7am0)
         bot.reply_to(message, text='اެخِتِاެࢪ شِنِۅ تِࢪيُډ حِبُ', reply_markup=mas)
     else:
+        bot.reply_to(message, text='اختر من القائمه بالأسفل', reply_markup=mas)
+    else:
         mas = types.InlineKeyboardMarkup(row_width=1)
-        h7am0 = types.InlineKeyboardButton('مِطَۅࢪيُ', url='t.me/E_4_1')
+        h7am0 = types.InlineKeyboardButton('مطور البوت', url='t.me/h_7am0')
         mas.add(h7am0)
-        bot.reply_to(message, '''يروحي اسف انت ما مشترك بلبوت
+        bot.reply_to(message, '''لست مشترك في البوت
 للتفعيل اسبوع في البوت مقابل 2 ارقام تليجرام
 تريد تفعل اسبوعين 3 ارقم تليجرام
 تريد تفعل شهر 5 ارقام تليجرام
-اقبل اي شي اخر فقط تواصل @E_4_1''', reply_markup=mas)
+اقبل مقابلات اخري فقط تواصل @E_4_1''', reply_markup=mas)
 
 @bot.message_handler(func=lambda message:True)
 def msg(message):
@@ -56,16 +58,18 @@ def msg(message):
         if message.from_user.id in admin:
             pass
         else:
-            mas = types.InlineKeyboardMarkup(row_width=1)
-        h7am0 = types.InlineKeyboardButton('مِطَۅࢪيُ', url='t.me/E_4_1')
+            bot.reply_to(message, text='اختر من القائمه بالأسفل', reply_markup=mas)
+    else:
+        mas = types.InlineKeyboardMarkup(row_width=1)
+        h7am0 = types.InlineKeyboardButton('مطور البوت', url='t.me/h_7am0')
         mas.add(h7am0)
-        bot.reply_to(message, '''يروحي اسف انت ما مشترك بلبوت
+        bot.reply_to(message, '''لست مشترك في البوت
 للتفعيل اسبوع في البوت مقابل 2 ارقام تليجرام
 تريد تفعل اسبوعين 3 ارقم تليجرام
 تريد تفعل شهر 5 ارقام تليجرام
-اقبل مقابلات اي شي فقط تواصل @E_4_1''', reply_markup=mas)
+اقبل مقابلات اخري فقط تواصل @E_4_1''', reply_markup=mas)
 
-@bot.callback_query_handler(func=lambda call: True)
+@bot.message_handler(func=lambda message:True)
 def calling(call):
     if call.data == 'us0':
         GO = 0
