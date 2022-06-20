@@ -94,7 +94,6 @@ def calling(call):
                     bot.edit_message_text(chat_id=call.message.chat.id, message_id=call.message.message_id,text="جاري الفحص ☠️ ", reply_markup=ms)
                     bot.reply_to(call.message, f'''هَاެكَ حِبُ صِډتِݪكَ يُۅࢪِ࣪ࢪ اެنِتِبُهَ مِتِاެحِ اެۅ مِبُنِډ ݪاެ تِعٰصِبُ عٰݪيُاެ اެحِبُكَ
 @{user}''')
-{name}''')
                 else:
                     WR += 1
                     AL += 1
@@ -144,7 +143,6 @@ def calling(call):
                                           text="جَاެيُ اެفِحِصِ... ☠️ ", reply_markup=ms)
                     bot.reply_to(call.message, f'''هَاެكَ حِبُ صِډتِݪكَ يُۅࢪِ࣪ࢪ اެنِتِبُهَ مِتِاެحِ اެۅ مِبُنِډ ݪاެ تِعٰصِبُ عٰݪيُاެ اެحِبُكَ
 @{user}''')
-{name}''')
                 else:
                     WR += 1
                     AL += 1
@@ -190,7 +188,6 @@ def calling(call):
                                           text="جَاެيُ اެفِحِصِ...", reply_markup=ms)
                     bot.reply_to(call.message, f'''هَاެكَ حِبُ صِډتِݪكَ يُۅࢪِ࣪ࢪ اެنِتِبُهَ مِتِاެحِ اެۅ مِبُنِډ ݪاެ تِعٰصِبُ عٰݪيُاެ اެحِبُكَ
 @{user}''')
-{name}''')
                 else:
                     WR += 1
                     AL += 1
@@ -241,7 +238,6 @@ def calling(call):
                                           text="جَاެيُ اެفِحِصِ ☠️ ", reply_markup=ms)
                     bot.reply_to(call.message, f'''هَاެكَ حِبُ صِډتِݪكَ يُۅࢪِ࣪ࢪ اެنِتِبُهَ مِتِاެحِ اެۅ مِبُنِډ ݪاެ تِعٰصِبُ عٰݪيُاެ اެحِبُكَ
 @{user}''')
-{name}''')
                 else:
                     WR += 1
                     AL += 1
@@ -295,7 +291,6 @@ def calling(call):
                                           text="جَاެيُ اެفِحِصِ... ☠️ ", reply_markup=ms)
                     bot.reply_to(call.message, f'''تِمِ فِحِصِ 500 يُۅࢪِ࣪ࢪ /TXN ݪݪݪصِيُډ مِࢪهَ ثِاެنِيُهَ اެضِغِط
 @{user}''')
-{name}''')
 
                 else:                    WR += 1
                     AL += 1
@@ -347,7 +342,6 @@ def calling(call):
                                           text="جَاެيُ اެفِحِصِ... ☠️ ", reply_markup=ms)
                     bot.reply_to(call.message, f'''هَاެكَ حِبُ صِډتِݪكَ يُۅࢪِ࣪ࢪ اެنِتِبُهَ مِتِاެحِ اެۅ مِبُنِډ ݪاެ تِعٰصِبُ عٰݪيُاެ اެحِبُگ
 @{user}''')
-{name}''')
                 else:
                     WR += 1
                     AL += 1
@@ -399,7 +393,6 @@ def calling(call):
                                           text="جَاެيُ اެفِحِصِ... ☠️ ", reply_markup=ms)
                     bot.reply_to(call.message, f'''هَاެكَ حِبُ صِډتِݪكَ يُۅࢪِ࣪ࢪ اެنِتِبُهَ مِتِاެحِ اެۅ مِبُنِډ ݪاެ تِعٰصِبُ عٰݪيُاެ اެحِبُكَ
 @{user}''')
-{name}''')
                 else:
                     WR += 1
                     AL += 1
@@ -455,7 +448,6 @@ def calling(call):
                                           text="جَاެيُ اެفِحِصِ... ☠️ ", reply_markup=ms)
                     bot.reply_to(call.message, f'''هَاެكَ حِبُ صِډتِݪكَ يُۅࢪِ࣪ࢪ اެنِتِبُهَ مِتِاެحِ اެۅ مِبُنِډ ݪاެ تِعٰصِبُ عٰݪيُاެ اެحِبُكَ
 @{user}''')
-{name}''')
                 else:
                     WR += 1
                     AL += 1
@@ -510,7 +502,6 @@ def calling(call):
                                           text="جَاެيُ اެفِحِصِ... ☠️ ", reply_markup=ms)
                     bot.reply_to(call.message, f'''هَاެكَ حِبُ صِډتِݪكَ يُۅࢪِ࣪ࢪ اެنِتِبُهَ مِتِاެحِ اެۅ مِبُنِډ ݪاެ تِعٰصِبُ عٰݪيُاެ اެحِبُكَ
 @{user}''')
-{name}''')
                 else:
                     WR += 1
                     AL += 1
