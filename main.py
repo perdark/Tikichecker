@@ -42,7 +42,7 @@ def hamo(message):
         bot.reply_to(message, text='اެخِتِاެࢪ شِنِۅ تِࢪيُډ حِبُ', reply_markup=mas)
     else:
         mas = types.InlineKeyboardMarkup(row_width=1)
-        h7am0 = types.InlineKeyboardButton('مطور البوت', url='t.me/h_7am0')
+        h7am0 = types.InlineKeyboardButton('مِطَۅࢪيُ', url='t.me/E_4_1')
         mas.add(h7am0)
         bot.reply_to(message, '''يروحي اسف انت ما مشترك بلبوت
 للتفعيل اسبوع في البوت مقابل 2 ارقام تليجرام
