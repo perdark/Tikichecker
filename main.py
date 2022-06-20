@@ -17,7 +17,7 @@ def start_message(message):
     بُكَ فِيُ بُۅتِ صِيُډ يُۅࢪِ࣪ࢪاެتِ تِيُݪيُجَࢪاެمِ
 اެݪبُۅتِ مِډفِۅعٰ ۅݪيُسُ مِجَاެنِيُ اެضِغِطَ /TXN
 ݪكَيُ اެتِحِقِقِ هَݪ اެنِتِ مِشِتِࢪكَ فِيُ اެݪبُۅتِ ❤️‍🔥
-_____________________________
+___________________________________
 
 اެنِتِ كَنِتِ ݪسُتِ مِشِتِࢪكَ ࢪاެسُݪ اެݪمِطَۅࢪ @E_4_1 ݪكَيُ يُفِعٰݪ ݪكَ اެݪاެشِتِࢪاެكَ بُمِقِاެبُݪ بُسُيُطَ جَډاެ ❤️‍🔥""", reply_to_message_id=(message.message_id))
 
@@ -30,7 +30,7 @@ def hamo(message):
         us2 = types.InlineKeyboardButton(text='ثِݪاެثِيُ بُۅتِ', callback_data='us2')
         us3 = types.InlineKeyboardButton(text='ࢪبُاެعٰيُ مِنِيُࢪِ࣪', callback_data='us3')
         us4 = types.InlineKeyboardButton(text='خِمِاެسُيُ مِمِيُࢪِ࣪', callback_data='us4')
-        us5 = types.InlineKeyboardButton(text='يوزر سداسي مميز', callback_data='us5')
+        us5 = types.InlineKeyboardButton(text='سُډاެسُيُ مِمِيُࢪِ࣪ ', callback_data='us5')
         us6 = types.InlineKeyboardButton(text='شِبُهَ ثِݪاެثِيُ بُۅتِ', callback_data='us6')
         us7 = types.InlineKeyboardButton(text='تِسُاެعٰيُ مِمِيُࢪِ࣪', callback_data='us7')
         us8 = types.InlineKeyboardButton(text='ثِمِاެنِيُ مِمِيُࢪِ࣪', callback_data='us8')
@@ -43,6 +43,7 @@ def hamo(message):
     else:
         mas = types.InlineKeyboardMarkup(row_width=1)
         h7am0 = types.InlineKeyboardButton('مِطَۅࢪيُ', url='t.me/E_4_1')
+
         mas.add(h7am0)
         bot.reply_to(message, '''اسف يروحي انت ما مشترك بلبوت
 للتفعيل اسبوع في البوت مقابل 2 ارقام تليجرام
@@ -58,6 +59,7 @@ def msg(message):
         else:
             mas = types.InlineKeyboardMarkup(row_width=1)
             h7am0 = types.InlineKeyboardButton('مِطَۅࢪيُ', url='t.me/E_4_1')
+            h7am0 = types.InlineKeyboardButton('قِنِاެةِ مِطَۅࢪيُ', url='t.me/'N1111V')
             mas.add(h7am0)
             bot.reply_to(message, '''اسف يروحي انت ما مشترك بلبوت
 للتفعيل اسبوع في البوت مقابل 2 ارقام تليجرام
