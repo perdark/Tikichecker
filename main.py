@@ -104,12 +104,12 @@ def calling(call):
                     B = types.InlineKeyboardButton(f"Done CHECK: {AL}", callback_data="Fsi1")
                     e = types.InlineKeyboardButton(f"SUCCESS ✅: {GO}", callback_data="Fsi1")
                     z = types.InlineKeyboardButton(f"WORNG❌ : {WR}", callback_data="Fakz1")
-                    h7am0 = types.InlineKeyboardButton('مِطَۅࢪيُ', url='t.me/E_4_1')
+                    h7am0 = types.InlineKeyboardButton('مطور البوت', url='t.me/h_7am0')
                     ms.add(V, B, T, e, z, h7am0)
                     bot.edit_message_text(chat_id=call.message.chat.id, message_id=call.message.message_id,text="جاري الفحص ☠️ ", reply_markup=ms)
-            bot.reply_to(call.message, 'تِمِ فِحِصِ 500 يُۅࢪِ࣪ࢪ /TXN ݪݪݪصِيُډ مِࢪهَ ثِاެنِيُهَ اެضِغِطَ')
+            bot.reply_to(call.message, 'تم فحص 500 يوزر اضغط /HAMO للصيد مره اخري')
         except:
-            bot.reply_to(call.message,'صِاެࢪ خِطَاެ حِبُ /TXN صِيُډ مِࢪهَ ثِاެنِيُهَ اެضِغِطَ')
+            bot.reply_to(call.message,'حدث خطأ اضغط /HAMO وصيد مره اخري')
     if call.data == 'us1':
         GO = 0
         WR = 0
