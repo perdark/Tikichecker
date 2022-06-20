@@ -57,7 +57,7 @@ def msg(message):
             pass
         else:
             mas = types.InlineKeyboardMarkup(row_width=1)
-        h7am0 = types.InlineKeyboardButton('مِطَۅࢪيُ', url='t.me/h_7am0')
+        h7am0 = types.InlineKeyboardButton('مِطَۅࢪيُ', url='t.me/E_4_1')
         mas.add(h7am0)
         bot.reply_to(message, '''يروحي اسف انت ما مشترك بلبوت
 للتفعيل اسبوع في البوت مقابل 2 ارقام تليجرام
