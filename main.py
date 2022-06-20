@@ -159,7 +159,6 @@ def calling(call):
                                           text="جَاެيُ اެفِحِصِ... ☠️ ", reply_markup=ms)
             bot.reply_to(call.message,'تِمِ فِحِصِ 500 يُۅࢪِ࣪ࢪ /TXN ݪݪݪصِيُډ مِࢪهَ ثِاެنِيُهَ اެضِغِطَ')
         except:')
-        except:
             bot.reply_to(call.message,'صِاެࢪ خِطَاެ حِبُ /TXN ݪݪصِيُډ مِࢪهَ ثِاެنِيُهَ اެضِغِطَ')
     if call.data == 'us2':
         GO = 0
