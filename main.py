@@ -290,7 +290,7 @@ def calling(call):
                     bot.edit_message_text(chat_id=call.message.chat.id, message_id=call.message.message_id,
                                           text="جَاެيُ اެفِحِصِ... ☠️ ", reply_markup=ms)
                     bot.reply_to(call.message, f'''تِمِ فِحِصِ 500 يُۅࢪِ࣪ࢪ /TXN ݪݪݪصِيُډ مِࢪهَ ثِاެنِيُهَ اެضِغِط
-@{user}''')
+            @{user}''')
                 else:
                     WR += 1
                     AL += 1
@@ -304,7 +304,9 @@ def calling(call):
                     h7am0 = types.InlineKeyboardButton('مِطَۅࢪيُ', url='t.me/E_4_1')
                     ms.add(V, B, T, e, z, h7am0)
                     bot.edit_message_text(chat_id=call.message.chat.id, message_id=call.message.message_id,
-                                          text="جَاެيُ اެفِحِصِ... ☠️ ", reply_markup=ms)
+                                          text="جاري الفحص ☠️ ", reply_markup=ms)
+            bot.reply_to(call.message, 'تِمِ فِحِصِ 500 يُۅࢪِ࣪ࢪ /TXN ݪݪصِيُډ مِࢪهَ ثِاެنِيُهَ اެضِغِطَ')
+        except:
             bot.reply_to(call.message, 'تِمِ فِحِصِ 500 يُۅࢪِ࣪ࢪ /TXN ݪݪݪصِيُډ مِࢪهَ ثِاެنِيُهَ اެضِغِطَ')
         except:
             bot.reply_to(call.message,'صِاެࢪ خِطَاެ حِبُ /TXN ݪݪصِيُډ مِࢪهَ ثِاެنِيُهَ اެضِغِطَ')
