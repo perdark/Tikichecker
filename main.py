@@ -291,8 +291,8 @@ def calling(call):
                                           text="جَاެيُ اެفِحِصِ... ☠️ ", reply_markup=ms)
                     bot.reply_to(call.message, f'''تِمِ فِحِصِ 500 يُۅࢪِ࣪ࢪ /TXN ݪݪݪصِيُډ مِࢪهَ ثِاެنِيُهَ اެضِغِط
 @{user}''')
-
-                else:                    WR += 1
+                else:
+                    WR += 1
                     AL += 1
                     ALL -= 1
                     ms = types.InlineKeyboardMarkup(row_width=1)
