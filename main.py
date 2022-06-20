@@ -158,7 +158,7 @@ def calling(call):
                     bot.edit_message_text(chat_id=call.message.chat.id, message_id=call.message.message_id,
                                           text="جَاެيُ اެفِحِصِ... ☠️ ", reply_markup=ms)
             bot.reply_to(call.message,'تِمِ فِحِصِ 500 يُۅࢪِ࣪ࢪ /TXN ݪݪݪصِيُډ مِࢪهَ ثِاެنِيُهَ اެضِغِطَ')
-        except:')
+        except:
             bot.reply_to(call.message,'صِاެࢪ خِطَاެ حِبُ /TXN ݪݪصِيُډ مِࢪهَ ثِاެنِيُهَ اެضِغِطَ')
     if call.data == 'us2':
         GO = 0
