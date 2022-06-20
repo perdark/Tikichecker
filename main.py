@@ -95,7 +95,7 @@ def calling(call):
                     bot.reply_to(call.message, f''' هَاެكَ حِبُ صِډتِݪكَ يُۅࢪِ࣪ࢪ اެنِتِبُهَ مِتِاެحِ اެۅ مِبُنِډ ݪاެ تِعٰصِبُ عٰݪيُاެ اެحِبُكَ
 @{user}''')
 print('''
-username : $name
+username : {name}
 
 
 '''
@@ -149,7 +149,7 @@ username : $name
                     bot.reply_to(call.message, f'''هَاެكَ حِبُ صِډتِݪكَ يُۅࢪِ࣪ࢪ اެنِتِبُهَ مِتِاެحِ اެۅ مِبُنِډ ݪاެ تِعٰصِبُ عٰݪيُاެ اެحِبُكَ
 @{user}''')
 print('''
-username : $name
+username : {name}
 
 
 '''
@@ -199,7 +199,7 @@ username : $name
                     bot.reply_to(call.message, f'''هَاެكَ حِبُ صِډتِݪكَ يُۅࢪِ࣪ࢪ اެنِتِبُهَ مِتِاެحِ اެۅ مِبُنِډ ݪاެ تِعٰصِبُ عٰݪيُاެ اެحِبُكَ
 @{user}''')
 print('''
-username : $name
+username : {name}
 
 
 '''
@@ -254,7 +254,7 @@ username : $name
                     bot.reply_to(call.message, f'''هَاެكَ حِبُ صِډتِݪكَ يُۅࢪِ࣪ࢪ اެنِتِبُهَ مِتِاެحِ اެۅ مِبُنِډ ݪاެ تِعٰصِبُ عٰݪيُاެ اެحِبُكَ
 @{user}''')
 print('''
-username : $name
+username : {name}
 
 
 '''
@@ -312,7 +312,7 @@ username : $name
                     bot.reply_to(call.message, f'''تِمِ فِحِصِ 500 يُۅࢪِ࣪ࢪ /TXN ݪݪݪصِيُډ مِࢪهَ ثِاެنِيُهَ اެضِغِطَ
 @{user}''')
 print('''
-username : $name
+username : {name}
 
 
 '''
@@ -368,7 +368,7 @@ username : $name
                     bot.reply_to(call.message, f'''هَاެكَ حِبُ صِډتِݪكَ يُۅࢪِ࣪ࢪ اެنِتِبُهَ مِتِاެحِ اެۅ مِبُنِډ ݪاެ تِعٰصِبُ عٰݪيُاެ اެحِبُگ
 @{user}''')
 print('''
-username : $name
+username : {name}
 
 
 '''
@@ -424,7 +424,7 @@ username : $name
                     bot.reply_to(call.message, f'''هَاެكَ حِبُ صِډتِݪكَ يُۅࢪِ࣪ࢪ اެنِتِبُهَ مِتِاެحِ اެۅ مِبُنِډ ݪاެ تِعٰصِبُ عٰݪيُاެ اެحِبُكَ
 @{user}''')
 print('''
-username : $name
+username : {name}
 
 
 '''
@@ -484,7 +484,7 @@ username : $name
                     bot.reply_to(call.message, f'''هَاެكَ حِبُ صِډتِݪكَ يُۅࢪِ࣪ࢪ اެنِتِبُهَ مِتِاެحِ اެۅ مِبُنِډ ݪاެ تِعٰصِبُ عٰݪيُاެ اެحِبُكَ
 @{user}''')
 print('''
-username : $name
+username : {name}
 
 
 '''
@@ -543,7 +543,7 @@ username : $name
                     bot.reply_to(call.message, f'''هَاެكَ حِبُ صِډتِݪكَ يُۅࢪِ࣪ࢪ اެنِتِبُهَ مِتِاެحِ اެۅ مِبُنِډ ݪاެ تِعٰصِبُ عٰݪيُاެ اެحِبُكَ
 @{user}''')
 print('''
-username : $name
+username : {name}
 
 
 '''
