@@ -4,7 +4,7 @@ abc ='ABCDEFGHIJKLMNOPQRSTUVWXYZ_1234567890'
 abc1 ='ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 import telebot
 from telebot import types
-bot_token ="5446689009:AAHhc54DpkslzukSj4kGQkaMvV70NEDbXFc"
+bot_token ="5446689009:AAGrAM_3hpMb_Gehm8zguDtDFsGG5SgAiCc"
 bot = telebot.TeleBot(bot_token)
 admin=[5244755240]
 
