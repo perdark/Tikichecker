@@ -1,13 +1,13 @@
-import requests,user_agent,json,flask,telebot,random,os,sys
-import telebot
-from telebot import types
+import requests
 from user_agent import generate_user_agent
 import logging
 from config import *
 from flask import Flask, request
+import random
+from colorama import Fore
+import telebot
 
-bot = telebot.TeleBot("5580087768:AAHCsXs7jqmalvlcY00O_C-tBAjmv2Fmmu8")
-
+bot = telebot.TeleBot("5554345313:AAEIcNmKzGYm6mFCIzGi2PjqYMoXmNsiVUQ")
 
 
 
