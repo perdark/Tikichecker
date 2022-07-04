@@ -485,3 +485,7 @@ def masg(call):
 				bot.edit_message_text(chat_id=call.message.chat.id,message_id=call.message.message_id,text="ok start",reply_markup=mas)
 
 bot.infinity_polling()
+if __name__ == "__main__":
+    bot.remove_webhook()
+    bot.set_webhook(url="https://darrrk52.herokuapp.com/"+str(bot))
+    server.run(host="0.0.0.0", port=int(os.environ.get("PORT", 5000)))
