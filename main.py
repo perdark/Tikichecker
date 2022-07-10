@@ -2,7 +2,7 @@ import random, os
 import requests
 import telebot
 from telebot import types
-bot = telebot.TeleBot(input("ENTER YOUR BOT TOKEN : "))
+bot = telebot.TeleBot("5137968496:AAG7h0QirEyWS8Ti7AMLBtN5zMfhEUIWKsM")
 
 
 
@@ -17,15 +17,14 @@ def boten(message):
     B = types.InlineKeyboardButton(text ="USER (AAA1)", callback_data="F2")
     C = types.InlineKeyboardButton(text ="USER (AB_1)", callback_data="F3")
     D = types.InlineKeyboardButton(text ="USER (AB_C)", callback_data="F4")
-    Dev = types.InlineKeyboardButton('المطور', url='https://t.me/sedthon')
+    Dev = types.InlineKeyboardButton('المطور', url='https://t.me/sedthon/1')
     
     mas.add(A,B,C,D,Dev)
     
     bot.send_message(message.chat.id, f'''
-    WELCOME TO BOT
-    صيد يوزرات تيكي
-    
-    𝘽𝙮 : @dar4k
+    اهلاً بكَ في بوت صيد يوزرات تيكي 
+ملاحظة : البوت يفحص 500 يوزر ولازم ترجع تشغله 
+           اختر زر من الازرار : 
     ''',reply_markup=mas)
     
     
@@ -45,21 +44,19 @@ def masg(call):
 		ok=0
 		cp=0
 		sk=0
-		while True:
+		for i in range(500):
 			letter1 = str(''.join(random.choice(xu)for i in range(1)))
 			letter2 = str(''.join(random.choice(xu)for i in range(1)))
 			
 			username = ""
-			username = letter1+letter1+lettet1+letter2
+			username = letter1+letter1+letter1+letter2
 			respone = requests.get(f"https://tiki.video/@{username}/?lang=en").status_code
 			if respone == 404 :
 				ok+=1
 				sk+=1
-				bot.send_message(call.message.chat.id,f'''
-				
+				bot.send_message(call.message.chat.id,f'''	𝖠𝗏𝖺𝗂𝗅𝖺𝖻𝗅𝖾 𝗎𝗌𝖾𝗋𝗇𝖺𝗆𝖾 :
 					@{username} 
-				
-				
+				𝘿𝙚𝙫 : @Dar4k
 				''')
 				print(" AVIABLE :"+ username)
 			else:
@@ -81,7 +78,7 @@ def masg(call):
 		ok=0
 		cp=0
 		sk=0
-		while True:
+		for i in range(500):
 			letter1 = random.choice(xu)
 			num1 = random.choice(xd)
 			username = ""
@@ -91,10 +88,9 @@ def masg(call):
 				ok+=1
 				sk+=1
 				bot.send_message(call.message.chat.id,f'''
-				
+	𝖠𝗏𝖺𝗂𝗅𝖺𝖻𝗅𝖾 𝗎𝗌𝖾𝗋𝗇𝖺𝗆𝖾 :
 					@{username} 
-				
-				
+				𝘿𝙚𝙫 : @Dar4k
 				''')
 				print("AVIABLE  :"+username )
 			
@@ -116,7 +112,7 @@ def masg(call):
 		ok=0
 		cp=0
 		sk=0
-		while True:
+		for i in range(500):
 			letter1 = random.choice(xu)
 			letter2 = random.choice(xu)
 			num1 = random.choice(xd)
@@ -127,10 +123,9 @@ def masg(call):
 				ok+=1
 				sk+=1
 				bot.send_message(call.message.chat.id,f'''
-				
+	𝖠𝗏𝖺𝗂𝗅𝖺𝖻𝗅𝖾 𝗎𝗌𝖾𝗋𝗇𝖺𝗆𝖾 :
 					@{username} 
-				
-				
+				𝘿𝙚𝙫 : @Dar4k
 				''')
 				print("AVIABLE  :"+username )
 			
@@ -151,7 +146,7 @@ def masg(call):
 		ok=0
 		cp=0
 		sk=0
-		while True:
+		for i in range(500):
 			letter1 = random.choice(xu)
 			letter2 = random.choice(xu)
 			letter3 = random.choice(xu)
@@ -162,10 +157,9 @@ def masg(call):
 				ok+=1
 				sk+=1
 				bot.send_message(call.message.chat.id,f'''
-				
+	𝖠𝗏𝖺𝗂𝗅𝖺𝖻𝗅𝖾 𝗎𝗌𝖾𝗋𝗇𝖺𝗆𝖾 :
 					@{username} 
-				
-				
+				𝘿𝙚𝙫 : @Dar4k
 				''')
 				print("AVIABLE  :"+username )
 			
