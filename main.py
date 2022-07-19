@@ -17,7 +17,7 @@ def boten(message):
     B = types.InlineKeyboardButton(text ="USER (AAA1)", callback_data="F2")
     C = types.InlineKeyboardButton(text ="USER (AB_1)", callback_data="F3")
     D = types.InlineKeyboardButton(text ="USER (AB_C)", callback_data="F4")
-    Dev = types.InlineKeyboardButton('المطور', url='https://t.me/sedthon/1')
+    Dev = types.InlineKeyboardButton('المطور', url='https://t.me/dar4k')
     
     mas.add(A,B,C,D,Dev)
     
